@@ -1,0 +1,23 @@
+name: untitled4
+description: Dart implementation of Herbert Kociemba's two-phase algorithm for solving Rubik's Cube.
+homepage: https://github.com/tiagohm/cuber
+version: 0.4.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0" # Đảm bảo Dart SDK tương thích với dự án.
+
+dependencies:
+  flutter: # Thêm Flutter nếu dự án là Flutter.
+    sdk: flutter
+  cuber: ^0.4.0
+  equatable: ^2.0.7
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test: # Thêm Flutter test để kiểm tra nếu cần.
+    sdk: flutter
+  test: ^1.24.2
+  lints: ^2.1.0
+
+flutter:
+  uses-material-design: true # Đảm bảo Flutter sử dụng thiết kế Material.
